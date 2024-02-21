@@ -1,0 +1,26 @@
+.hijo2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+;
+}
+
+.cuadro{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rgb(166, 133, 172);
+}
+.cuadro1{
+
+    grid-column-start: 2;
+    background-color: rgb(166, 133, 172);
+}
+.cuadro2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: rgb(166, 133, 172);
+    grid-column-start: 2;
+    background-color: rgb(166, 133, 172);
+}

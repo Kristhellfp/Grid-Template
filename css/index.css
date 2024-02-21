@@ -1,0 +1,40 @@
+
+.padre{
+    display: flex;
+    flex-direction: column;
+    width: 70rem;
+    height: 50rem;
+    gap: 2rem;
+
+}
+
+.hijo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.hijo1{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.hijo1, a{
+    text-decoration: none;
+}
+.padre2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.hijo2{
+    width: 49rem;
+    height: 34rem;
+
+}
+
+

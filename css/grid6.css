@@ -1,0 +1,46 @@
+.hijo2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20% 1fr 20% ;
+    gap: 1rem;
+;
+}
+
+.cuadro{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    background-color: rgb(166, 133, 172);
+}
+
+.cuadro1{
+    background-color: rgb(166, 133, 172);
+
+  
+}
+.cuadro2{
+    background-color: rgb(166, 133, 172);
+
+    
+}
+
+
+.cuadro3{
+    background-color: rgb(166, 133, 172);
+
+  
+}
+
+.cuadro4{
+ 
+    background-color: rgb(166, 133, 172);
+
+}
+
+.cuadro5{
+    background-color: rgb(166, 133, 172);
+
+   
+}

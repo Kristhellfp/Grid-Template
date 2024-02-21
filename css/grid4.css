@@ -1,0 +1,52 @@
+.hijo2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40% 40% 1fr ;
+    gap: 1rem;
+;
+}
+
+.cuadro{
+    background-color: rgb(166, 133, 172);
+}
+
+.cuadro1{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: rgb(166, 133, 172);
+    grid-column-start: 1;
+    background-color: rgb(166, 133, 172);
+  
+}
+.cuadro2{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    background-color: rgb(166, 133, 172);
+    
+}
+
+
+.cuadro3{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: rgb(166, 133, 172);
+    grid-column-start: 3;
+    background-color: rgb(166, 133, 172);
+  
+}
+
+.cuadro4{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: rgb(166, 133, 172);
+    grid-column-start: 3;
+    background-color: rgb(166, 133, 172);
+    
+}
+
+.cuadro5{
+
+   background-color: rgb(166, 133, 172);
+   
+}
